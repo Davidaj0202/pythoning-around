@@ -1,8 +1,4 @@
-from turtle import*
-color('red', 'yellow')
-begin_fill()
-while (abs(pos()) < 1) is true:
-    forward(200)
-    left(170)
-end_fill()
-done()
+i=1
+for j in range(100):
+    print(i)
+    i+=1
